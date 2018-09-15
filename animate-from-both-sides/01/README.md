@@ -1,5 +1,11 @@
 this iteration makes the code nice to work with, for my subjective definition of "nice"
 
+- js in index.js file
+- prettier format js
+- update js with lebab
+- single quotes in html
+- no line breaks in html
+
 an iteration on https://bl.ocks.org/tophtucker/45e8112e70ea9192c8d666dba6fe79fc
 
 ---
