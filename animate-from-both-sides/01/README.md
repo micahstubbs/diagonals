@@ -1,3 +1,5 @@
+this iteration makes the code nice to work with, for my subjective definition of "nice"
+
 an iteration on https://bl.ocks.org/tophtucker/45e8112e70ea9192c8d666dba6fe79fc
 
 ---
