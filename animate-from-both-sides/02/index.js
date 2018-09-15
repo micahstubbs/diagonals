@@ -29,7 +29,7 @@ function renderTriangle(selection, triangularNumber, color, offsetter) {
     .data(
       d3
         .range(getTriangularNumber(triangularNumber))
-        .map(getUpperTriangleCoordinates)
+        .map(getLowerTriangleCoordinates)
     )
     .enter()
     .append('div')
