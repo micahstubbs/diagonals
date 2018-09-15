@@ -1,7 +1,7 @@
-const pageWidth = 960;
-const gridSize = 960 / Math.ceil(Math.random() * 24);
-const triangularNumber = 960 / gridSize - 1;
-const delay = 50;
+const pageWidth = 960
+const gridSize = 960 / Math.ceil(Math.random() * 24)
+const triangularNumber = 960 / gridSize - 1
+const delay = 50
 
 // Render warm upper larger triangle
 renderTriangle(
@@ -21,8 +21,7 @@ renderTriangle(
 
 function renderTriangle(selection, triangularNumber, color, offsetter) {
   // offsetter just lets us choose whether to count from upper left or bottom right
-  if (offsetter === undefined)
-    offsetter = d => d
+  if (offsetter === undefined) offsetter = d => d
   if (color === undefined) color = d3.scaleRainbow()
 
   selection
@@ -63,7 +62,7 @@ function getTriangularNumberInverse(n) {
   3
 */
 function getUpperTriangleCoordinates(n) {
-  const i = Math.floor(getTriangularNumberInverse(n));
+  const i = Math.floor(getTriangularNumberInverse(n))
   return {
     n,
     row: i - (n - getTriangularNumber(i)),
@@ -79,7 +78,7 @@ function getUpperTriangleCoordinates(n) {
   3 4 5
 */
 function getLowerTriangleCoordinates(n) {
-  const i = Math.floor(getTriangularNumberInverse(n));
+  const i = Math.floor(getTriangularNumberInverse(n))
   return {
     n,
     row: i,
